@@ -122,10 +122,18 @@ function HomePage() {
       />
 
       <header className="hero">
+        <div className="hero__ambient" aria-hidden="true">
+          <span className="hero__particle hero__particle--one"></span>
+          <span className="hero__particle hero__particle--two"></span>
+          <span className="hero__particle hero__particle--three"></span>
+          <span className="hero__streak hero__streak--one"></span>
+          <span className="hero__streak hero__streak--two"></span>
+        </div>
+
         <div className="hero__grid">
           <div className="hero__content">
             <p className="hero__badge">Meisterbetrieb · Moselregion · Vertrauen seit Jahren</p>
-            <h1>Ihre Werkstatt für TÜV, Lackierung und Reparatur an der Mosel</h1>
+            <h1>Ihre Werkstatt für <span>TÜV</span>, <span>Lackierung</span> und Reparatur an der Mosel</h1>
             <p className="hero__text">Schnelle Termine, präzise Arbeit und ein Service, der überzeugt – von der ersten Inspektion bis zur finalen Lackierung.</p>
             <div className="hero__actions">
               <Link className="button button--primary" to="/kontakt">Jetzt Termin vereinbaren</Link>
@@ -139,14 +147,24 @@ function HomePage() {
                 WhatsApp
               </a>
             </div>
-            <div className="hero__rating">
-              <span>★ 4,7</span>
-              <span>53 Google-Bewertungen</span>
+
+            <div className="hero__info-row">
+              <div className="hero__glass-card">
+                <strong>24h</strong>
+                <span>Terminservice</span>
+              </div>
+              <div className="hero__glass-card">
+                <strong>4,7★</strong>
+                <span>53 Bewertungen</span>
+              </div>
             </div>
           </div>
+
           <div className="hero__visual">
-            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1400&q=80" alt="Moderne Premium-Werkstatt mit Sportwagen" />
-            <div className="hero__visual-badge">24h Terminservice · Meisterbetrieb</div>
+            <div className="hero__visual-glow"></div>
+            <div className="hero__visual-card">Meisterbetrieb · Präzision · Vertrauen</div>
+            <img className="hero__car" src="/images/auto.jpg" alt="Porsche im Premium-Servicelook" />
+            <div className="hero__road"></div>
           </div>
         </div>
       </header>
