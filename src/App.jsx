@@ -10,6 +10,7 @@ const AboutPage = lazy(() => import('./pages/AboutPage'))
 const ContactPage = lazy(() => import('./pages/ContactPage'))
 const ImpressumPage = lazy(() => import('./pages/ImpressumPage'))
 const PrivacyPage = lazy(() => import('./pages/PrivacyPage'))
+const AccessibilityPage = lazy(() => import('./pages/AccessibilityPage'))
 const TuvPage = lazy(() => import('./pages/TuvPage'))
 const PaintPage = lazy(() => import('./pages/PaintPage'))
 const RepairPage = lazy(() => import('./pages/RepairPage'))
@@ -74,14 +75,73 @@ function App() {
               <Route path="/kontakt" element={<ContactPage />} />
               <Route path="/impressum" element={<ImpressumPage />} />
               <Route path="/datenschutz" element={<PrivacyPage />} />
+              <Route path="/barrierefreiheit" element={<AccessibilityPage />} />
             </Routes>
           </Suspense>
 
           <footer className="site-footer">
-            <p>© 2026 Autohaus Marx · Moselweinstraße 2, 56821 Ellenz-Poltersdorf</p>
-            <div className="footer-links">
-              <NavLink to="/impressum">Impressum</NavLink>
-              <NavLink to="/datenschutz">Datenschutz</NavLink>
+            <div className="site-footer__top">
+              <div className="footer-column footer-column--brand">
+                <NavLink className="footer-brand" to="/" onClick={() => setMenuOpen(false)}>
+                  <span className="brand__mark">AM</span>
+                  <span className="brand__text">Autohaus Marx e.K.</span>
+                </NavLink>
+                <p>Ihre Werkstatt für TÜV, Lackierung und Reparatur an der Mosel.</p>
+                <div className="footer-rating" aria-label="Google-Bewertungen">
+                  <span aria-hidden="true">★</span> 4,7 <span>(53 Google-Bewertungen)</span>
+                </div>
+              </div>
+
+              <div className="footer-column">
+                <h3>Kontakt</h3>
+                <address className="footer-contact">
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Moselweinstra%C3%9Fe+2%2C+56821+Ellenz-Poltersdorf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span aria-hidden="true">📍</span>
+                    Moselweinstraße 2, 56821 Ellenz-Poltersdorf
+                  </a>
+                  <a href="tel:+492673962740">
+                    <span aria-hidden="true">📞</span>
+                    02673 962740
+                  </a>
+                  <a href="mailto:info@autohaus-marx.de">
+                    <span aria-hidden="true">✉</span>
+                    info@autohaus-marx.de
+                  </a>
+                  <a
+                    className="footer-contact__whatsapp"
+                    href={`https://wa.me/4926739627402?text=${encodeURIComponent('Hallo, ich habe eine Frage zu Ihrem Service.')}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span aria-hidden="true">💬</span>
+                    WhatsApp
+                  </a>
+                </address>
+              </div>
+
+              <div className="footer-column">
+                <h3>Öffnungszeiten</h3>
+                <ul className="footer-hours">
+                  <li><span>Montag–Freitag</span><span>[...]</span></li>
+                  <li><span>Samstag</span><span>[...]</span></li>
+                  <li><span>Sonntag</span><span>geschlossen</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="site-footer__bottom">
+              <div className="footer-bottom-links">
+                <NavLink to="/impressum">Impressum</NavLink>
+                <span aria-hidden="true">·</span>
+                <NavLink to="/datenschutz">Datenschutzerklärung</NavLink>
+                <span aria-hidden="true">·</span>
+                <NavLink to="/barrierefreiheit">Erklärung zur Barrierefreiheit</NavLink>
+              </div>
+              <p>© 2026 Autohaus Marx e.K.</p>
             </div>
           </footer>
           <a
