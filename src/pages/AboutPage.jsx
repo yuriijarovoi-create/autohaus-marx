@@ -77,7 +77,7 @@ function AboutPage() {
   return (
     <>
       <Helmet>
-        <title>Über uns | Autohaus Marx e.K.</title>
+        <title>Über uns | Autohaus Marx</title>
         <meta name="description" content="Erfahrene KFZ-Werkstatt an der Mosel mit Meisterbetrieb, moderner Technik und langjähriger Expertise." />
         <link rel="canonical" href="https://example.com/uber-uns" />
       </Helmet>
@@ -85,14 +85,14 @@ function AboutPage() {
       <main>
         <AnimatedSection className="page-hero">
           <p className="eyebrow">Über uns</p>
-          <h1>Über Autohaus Marx e.K.</h1>
+          <h1>Über Autohaus Marx</h1>
           <p>Als traditionsreiches Familienunternehmen an der Mosel verbinden wir langjährige Erfahrung mit einem modernen Serviceverständnis.</p>
         </AnimatedSection>
 
         <AnimatedSection className="section section--light about-grid">
           <article className="about-card">
             <h2>Unsere Geschichte</h2>
-            <p>Autohaus Marx e.K. steht für hochwertige Werkstattarbeit, eine persönliche Betreuung und ein hohes Maß an Verantwortungsbewusstsein. Unser Anspruch ist es, Fahrzeuge zuverlässig, fachlich sauber und transparent zu betreuen.</p>
+            <p>Autohaus Marx steht für hochwertige Werkstattarbeit, eine persönliche Betreuung und ein hohes Maß an Verantwortungsbewusstsein. Unser Anspruch ist es, Fahrzeuge zuverlässig, fachlich sauber und transparent zu betreuen.</p>
           </article>
           <article className="about-card">
             <h2>Unsere Philosophie</h2>

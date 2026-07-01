@@ -85,8 +85,8 @@ function ServicesPage() {
   return (
     <>
       <Helmet>
-        <title>Leistungen | Autohaus Marx e.K. | TÜV, Lackierung, Reparatur</title>
-        <meta name="description" content="Leistungen von Autohaus Marx e.K. in Ellenz-Poltersdorf: TÜV & AU, Lackierung, KFZ-Reparatur und Unfallinstandsetzung." />
+        <title>Leistungen | Autohaus Marx | TÜV, Lackierung, Reparatur</title>
+        <meta name="description" content="Leistungen von Autohaus Marx in Ellenz-Poltersdorf: TÜV & AU, Lackierung, KFZ-Reparatur und Unfallinstandsetzung." />
         <link rel="canonical" href="https://example.com/leistungen" />
       </Helmet>
 

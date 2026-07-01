@@ -5,7 +5,7 @@ function PaintPage() {
   return (
     <>
       <Helmet>
-        <title>Autolackierung | Autohaus Marx e.K.</title>
+        <title>Autolackierung | Autohaus Marx</title>
         <meta name="description" content="Professionelle Autolackierung in Ellenz-Poltersdorf mit Lackierkabine, Farbtonanpassung und Unfallreparatur-Lackierung." />
         <link rel="canonical" href="https://example.com/leistungen/lackierung" />
       </Helmet>

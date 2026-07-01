@@ -32,7 +32,7 @@ function App() {
           <header className="site-header">
             <NavLink className="brand" to="/" onClick={() => setMenuOpen(false)}>
               <span className="brand__mark">AM</span>
-              <span className="brand__text">Autohaus Marx e.K.</span>
+              <span className="brand__text">Autohaus Marx</span>
             </NavLink>
 
             <button
@@ -78,7 +78,7 @@ function App() {
           </Suspense>
 
           <footer className="site-footer">
-            <p>© 2026 Autohaus Marx e.K. · Moselweinstraße 2, 56821 Ellenz-Poltersdorf</p>
+            <p>© 2026 Autohaus Marx · Moselweinstraße 2, 56821 Ellenz-Poltersdorf</p>
             <div className="footer-links">
               <NavLink to="/impressum">Impressum</NavLink>
               <NavLink to="/datenschutz">Datenschutz</NavLink>

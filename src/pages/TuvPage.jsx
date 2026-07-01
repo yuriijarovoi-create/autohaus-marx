@@ -5,7 +5,7 @@ function TuvPage() {
   return (
     <>
       <Helmet>
-        <title>TÜV & AU | Autohaus Marx e.K.</title>
+        <title>TÜV & AU | Autohaus Marx</title>
         <meta name="description" content="TÜV & AU in Ellenz-Poltersdorf – schnelle Hauptuntersuchung, Abgasuntersuchung und unkomplizierte Terminvergabe." />
         <link rel="canonical" href="https://example.com/leistungen/tuv" />
       </Helmet>

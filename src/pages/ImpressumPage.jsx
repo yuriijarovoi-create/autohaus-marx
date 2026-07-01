@@ -5,8 +5,8 @@ function ImpressumPage() {
   return (
     <>
       <Helmet>
-        <title>Impressum | Autohaus Marx e.K.</title>
-        <meta name="description" content="Impressum von Autohaus Marx e.K. gemäß § 5 TMG." />
+        <title>Impressum | Autohaus Marx</title>
+        <meta name="description" content="Impressum von Autohaus Marx gemäß § 5 TMG." />
         <link rel="canonical" href="https://example.com/impressum" />
       </Helmet>
 
@@ -17,7 +17,7 @@ function ImpressumPage() {
         </AnimatedSection>
 
         <section className="section section--light legal-page">
-          <h2>Autohaus Marx e.K.</h2>
+          <h2>Autohaus Marx</h2>
           <p>Inhaber: [Vor- und Nachname des Inhabers]</p>
           <p>Moselweinstraße 2<br />56821 Ellenz-Poltersdorf</p>
           <p>Telefon: 02673 962740<br />E-Mail: [E-Mail-Adresse]</p>

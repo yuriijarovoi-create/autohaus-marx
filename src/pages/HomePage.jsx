@@ -72,10 +72,10 @@ function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Autohaus Marx e.K. | TÜV, Lackierung und KFZ-Reparatur an der Mosel</title>
+        <title>Autohaus Marx | TÜV, Lackierung und KFZ-Reparatur an der Mosel</title>
         <meta name="description" content="Professionelle TÜV-AU, Lackierarbeiten und KFZ-Reparatur in Ellenz-Poltersdorf. Moderne Werkstatt mit 4,7★ Bewertung und schnellen Terminen." />
         <link rel="canonical" href="https://example.com/" />
-        <meta property="og:title" content="Autohaus Marx e.K. | TÜV, Lackierung und KFZ-Reparatur" />
+        <meta property="og:title" content="Autohaus Marx | TÜV, Lackierung und KFZ-Reparatur" />
         <meta property="og:description" content="Moderne Werkstatt für TÜV, Lackierung und Reparaturen an der Mosel." />
         <meta property="og:type" content="website" />
         <meta property="twitter:card" content="summary_large_image" />
@@ -84,7 +84,7 @@ function HomePage() {
         data={{
           '@context': 'https://schema.org',
           '@type': 'AutoRepair',
-          name: 'Autohaus Marx e.K.',
+          name: 'Autohaus Marx',
           url: 'https://example.com',
           telephone: '+492673962740',
           address: {
@@ -225,7 +225,7 @@ function HomePage() {
             <h2>So erreichen Sie uns</h2>
             <p>Moselweinstraße 2, 56821 Ellenz-Poltersdorf</p>
           </div>
-          <iframe title="Karte von Autohaus Marx e.K." src="https://www.google.com/maps?q=Moselweinstra%C3%9Fe%202,%2056821%20Ellenz-Poltersdorf&output=embed" loading="lazy" />
+          <iframe title="Karte von Autohaus Marx" src="https://www.google.com/maps?q=Moselweinstra%C3%9Fe%202,%2056821%20Ellenz-Poltersdorf&output=embed" loading="lazy" />
         </AnimatedSection>
 
         <AnimatedSection className="section contact-strip">

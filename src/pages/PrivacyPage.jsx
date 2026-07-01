@@ -5,8 +5,8 @@ function PrivacyPage() {
   return (
     <>
       <Helmet>
-        <title>Datenschutzerklärung | Autohaus Marx e.K.</title>
-        <meta name="description" content="Datenschutzerklärung von Autohaus Marx e.K. für diese Website." />
+        <title>Datenschutzerklärung | Autohaus Marx</title>
+        <meta name="description" content="Datenschutzerklärung von Autohaus Marx für diese Website." />
         <link rel="canonical" href="https://example.com/datenschutz" />
       </Helmet>
 
@@ -19,7 +19,7 @@ function PrivacyPage() {
         <section className="section section--light legal-page">
           <h2>1. Datenschutz auf einen Blick</h2>
           <p>Allgemeine Hinweise: Die folgenden Hinweise geben einen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen.</p>
-          <p>Datenerfassung auf dieser Website: Verantwortlich ist Autohaus Marx e.K., Moselweinstraße 2, 56821 Ellenz-Poltersdorf, Telefon 02673 962740, E-Mail: [E-Mail-Adresse].</p>
+          <p>Datenerfassung auf dieser Website: Verantwortlich ist Autohaus Marx, Moselweinstraße 2, 56821 Ellenz-Poltersdorf, Telefon 02673 962740, E-Mail: [E-Mail-Adresse].</p>
 
           <h2>2. Hosting</h2>
           <p>Diese Website wird bei einem externen Dienstleister gehostet. Die personenbezogenen Daten werden auf den Servern des Hosters gespeichert. [Name des Hosters einfügen].</p>

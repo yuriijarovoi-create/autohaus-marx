@@ -5,7 +5,7 @@ function RepairPage() {
   return (
     <>
       <Helmet>
-        <title>KFZ-Reparatur | Autohaus Marx e.K.</title>
+        <title>KFZ-Reparatur | Autohaus Marx</title>
         <meta name="description" content="KFZ-Reparatur aller Marken in der Moselregion – Motor, Bremsen und Fahrwerk fachgerecht repariert." />
         <link rel="canonical" href="https://example.com/leistungen/reparatur" />
       </Helmet>

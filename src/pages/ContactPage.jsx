@@ -33,8 +33,8 @@ function ContactPage() {
   return (
     <>
       <Helmet>
-        <title>Kontakt | Autohaus Marx e.K.</title>
-        <meta name="description" content="Kontaktieren Sie Autohaus Marx e.K. für TÜV-Termine, Lackierung, Reparatur oder Unfallinstandsetzung in Ellenz-Poltersdorf." />
+        <title>Kontakt | Autohaus Marx</title>
+        <meta name="description" content="Kontaktieren Sie Autohaus Marx für TÜV-Termine, Lackierung, Reparatur oder Unfallinstandsetzung in Ellenz-Poltersdorf." />
         <link rel="canonical" href="https://example.com/kontakt" />
       </Helmet>
 
@@ -72,7 +72,7 @@ function ContactPage() {
 
           <aside className="contact-details">
             <h2>Kontakt & Anfahrt</h2>
-            <p>Autohaus Marx e.K.</p>
+            <p>Autohaus Marx</p>
             <p>Moselweinstraße 2<br />56821 Ellenz-Poltersdorf</p>
             <a href="tel:+492673962740">02673 962740</a>
             <a href="mailto:info@autohausmarx.de">info@autohausmarx.de</a>
@@ -89,7 +89,7 @@ function ContactPage() {
             <p className="eyebrow">Anfahrt</p>
             <h2>So finden Sie uns</h2>
           </div>
-          <iframe title="Karte von Autohaus Marx e.K." src="https://www.google.com/maps?q=Moselweinstra%C3%9Fe%202,%2056821%20Ellenz-Poltersdorf&output=embed" loading="lazy" />
+          <iframe title="Karte von Autohaus Marx" src="https://www.google.com/maps?q=Moselweinstra%C3%9Fe%202,%2056821%20Ellenz-Poltersdorf&output=embed" loading="lazy" />
         </AnimatedSection>
       </main>
     </>

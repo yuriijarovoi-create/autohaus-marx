@@ -5,7 +5,7 @@ function AccidentPage() {
   return (
     <>
       <Helmet>
-        <title>Unfallinstandsetzung | Autohaus Marx e.K.</title>
+        <title>Unfallinstandsetzung | Autohaus Marx</title>
         <meta name="description" content="Unfallinstandsetzung mit Schadensaufnahme und Zusammenarbeit mit Versicherungen in Ellenz-Poltersdorf." />
         <link rel="canonical" href="https://example.com/leistungen/unfall" />
       </Helmet>
